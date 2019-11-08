@@ -1,0 +1,29 @@
+<div>
+    <h2 class='highlight-text'>
+        <i class="material-icons">school</i>
+        Education
+    </h1>
+    <div ng-repeat="edu in education.education">
+        <div layout="row" class="mb-10">
+            <div flex="65">
+                <div layout="column">
+                    <b>{{edu.degree}}</b>
+                    <span class="highlight-text">{{edu.school}}</span>
+                </div>
+            </div>
+            <div flex="30">
+                <span>{{edu.time}}</span>
+            </div>
+        </div>
+        <div layout="row" class="mb-10">
+            <div layout="column">
+                <span ng-if="edu.gpa">
+                    <b>GPA: </b><span>{{edu.gpa}}</span>
+                </span>
+                <span>
+                    <b>Relavant Coursework: </b><span>{{edu.description}}</span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

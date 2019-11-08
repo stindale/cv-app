@@ -1,0 +1,15 @@
+<div>
+    <h2 class='highlight-text'>
+        <i class="material-icons">grade</i>
+        Skills
+    </h1>
+    <div ng-repeat="skill in skills.skills">
+        <div layout="row">
+            <span flex="20">{{skill.language}}</span>
+            <span flex class='mt-5 mr-20'>
+                <md-progress-linear md-mode="determinate" value="{{skill.level}}"></md-progress-linear>
+            </span>
+        </div>
+    </div>
+</div>
+    

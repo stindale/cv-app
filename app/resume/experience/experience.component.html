@@ -1,0 +1,23 @@
+<div>
+    <h2 class='highlight-text'>
+        <i class="material-icons">work</i>
+        Experience
+    </h1>
+    <div ng-repeat="exp in experience.experience">
+        <div layout="row" class="mb-10">
+            <div flex="65">
+                <div layout="column">
+                    <b>{{exp.position}}</b>
+                    <span class="highlight-text">{{exp.company}}</span>
+                </div>
+            </div>
+            <div flex="30">
+                <span>{{exp.time}}</span>
+            </div>
+        </div>
+        <div layout="row" class="mb-10">
+            <span>{{exp.description}}</span>
+        </div>
+    </div>
+</div>
+    

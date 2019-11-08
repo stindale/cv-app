@@ -1,0 +1,15 @@
+<div layout="row">
+    <div flex="50">
+        <div layout="column" class="name-container" flex="50">
+            <span>{{header.contact.firstName | uppercase}}</span>
+            <span class="highlight-text">{{header.contact.lastName | uppercase}}</span>
+        </div>
+    </div>
+    <div flex="50" class='bottom'>
+        <div layout="column">
+            <span>{{header.contact.email}}</span>
+            <span>{{header.contact.phone}}</span>
+            <a ng-href="{{header.contact.website}}" target='_self'>{{header.contact.website}}</a>
+        </div>
+    </div>
+</div>

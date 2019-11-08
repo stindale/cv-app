@@ -1,0 +1,34 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.name-container {
+  border-style: solid;
+  border-color: cornflowerblue;
+  padding: 10px;
+  font-size: 42px;
+  text-align: center;
+}
+
+.highlight-text {
+  color: cornflowerblue;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.bottom {
+  align-self: flex-end;
+}
