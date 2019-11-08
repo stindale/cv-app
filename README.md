@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # `angular-seed` — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS][angularjs] web app. You can use it
@@ -296,6 +297,10 @@ For more information on AngularJS please check out [angularjs.org][angularjs].
 [selenium]: http://docs.seleniumhq.org/
 [travis]: https://travis-ci.org/
 [travis-docs]: https://docs.travis-ci.com/user/getting-started
+=======
+# cv-app
+CV App in AngularJS
+>>>>>>> 8d37662fc952991210f577628633d42b9b4f5afe
 =======
 # cv-app
 CV App in AngularJS
